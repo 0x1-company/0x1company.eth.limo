@@ -19,6 +19,7 @@ jobs:
         run: make setup
       - name: Build with vss
         run: make build
+      - run: ipfs init
       - run: ipfs add -r dist
       - run: ipfs pin add QmT3YJXwYMVhAouUfE6ZeSKeX41RhUdiuJno3XrV9CJHsb
       - run: ipfs name publish QmT3YJXwYMVhAouUfE6ZeSKeX41RhUdiuJno3XrV9CJHsb
