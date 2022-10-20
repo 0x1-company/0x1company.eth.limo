@@ -1,0 +1,5 @@
+title = "pistachio-design-template"
+description = "description"
+
+[build]
+ignore_files = ["ignore.md", "README.md"]

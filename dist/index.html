@@ -1,0 +1,120 @@
+<!--
+______ _     _             _     _       
+| ___ (_)   | |           | |   (_)      
+| |_/ /_ ___| |_ __ _  ___| |__  _  ___  
+|  __/| / __| __/ _` |/ __| '_ \| |/ _ \ 
+| |   | \__ | || (_| | (__| | | | | (_) |
+\_|   |_|___/\__\__,_|\___|_| |_|_|\___/ 
+     _____ _             _ _             
+    /  ___| |           | (_)            
+    \ `--.| |_ _   _  __| |_  ___        
+     `--. | __| | | |/ _` | |/ _ \       
+    /\__/ | |_| |_| | (_| | | (_) |      
+    \____/ \__|\__,_|\__,_|_|\___/       
+-->
+
+<!DOCTYPE html>
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5W20EVMG6T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5W20EVMG6T');
+    </script>
+
+    <meta charset="utf-8" />
+    <!-- TITLE & META DESCRIPTION -->
+    <title>pistachio-design-template</title>
+    <meta name=”description“ content="description" />
+    <!-- SNS LINK PREVIEW METADATA OGP -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pistachio Studio" />
+    <meta property="og:description" content="Neighborhood recording crew Kngw, Japan." />
+    <meta property="og:url" content="https://pistachiostudio.net/" />
+    <meta property="og:image" content="https://pistachiostudio.net/og_image_banana_maru.png" />
+    <!-- FAVICON MAY BE NEED ABSOLUTE PATH -->
+    <link rel="icon" sizes="16x16" href="favicon.ico" />
+    <link rel="icon" sizes="32x32" href="favicon.ico" />
+    <link rel="icon" sizes="48x48" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.json" />
+    <!-- CSS IMPORT -->
+    <link rel="stylesheet" href="css/vhs.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/dot.css" />
+    <!-- GOOGLE FONT IMPORT FROM CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+    <!-- VIEWPORT FOR RESPONSIVE -->
+    <meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+
+<!-- BACKGROUND LINE NOISE -->
+<div class="lines"></div>
+
+<!-- LEFT TOP DOT ICON, IF YOU WANT EDIT SEE "dot.css" -->
+<div class="dot"></div>
+
+
+<!-- MAIN RGB NOISE -->
+<div class="main">
+<div class="noise"></div>
+<div class="vhs">
+    <!-- @CONTENTS -->
+    <h1>pistachio-design-template</h1>
+<p>A static site generator</p>
+<h2>Pages</h2>
+<ul>
+<li><a href="./about.html">about page</a></li>
+<li>posts<ul>
+<li><a href="./posts/first.html">first</a></li>
+</ul>
+</li>
+</ul>
+    <!-- /@CONTENTS -->
+
+    <!-- JQUERY IMPORT FROM CDN HOSTED BY GOOGLE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- TYPEWRITER EFFECT JS IMPORT -->
+    <script src="./js/t.js"></script>
+    <!-- <script src="https://pistachiostudio.github.io/pistachio-on-vss/js/t.js"></script> -->
+
+    <!-- H2 CLASS "typek" TYPEWRITER EFFECT SETTINGS -->
+    <script>
+        $(function () {
+            $(".typek").t({
+                caret: '<span style="color:hotpink;">•</span>',
+                speed: 25,
+                beep: false,
+                mistype: 10,
+                locale: "en",
+                speed_vary: true,
+                blink: true,
+                delay: 1.4,
+            });
+        });
+    </script>
+
+    <!-- SPAN CLASS "typew" TYPEWRITER EFFECT SETTINGS
+    (TOP MESSAGE) -->
+    <script>
+        $(function () {
+            $(".typew").t({
+                caret: '<span style="color:magenta;">]</span>',
+                speed: 10,
+                beep: false,
+                mistype: false,
+                locale: "en",
+                speed_vary: true,
+                blink: true,
+                delay: 0.1,
+            });
+        });
+    </script>
+</div>
+</div>
+</body>
