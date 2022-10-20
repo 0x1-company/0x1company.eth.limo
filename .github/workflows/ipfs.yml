@@ -13,8 +13,8 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive
-      - name: Install ipfs
-        run: brew install ipfs
+      - run: brew update
+      - run: brew install ipfs
       - name: Install vss cli
         run: make setup
       - name: Build with vss
