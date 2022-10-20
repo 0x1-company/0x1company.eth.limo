@@ -41,7 +41,6 @@ YOU CAN CHANGE COLORS & WEIGHT HERE! */
   --doggo-color: #ffdb25;
 }
 
-
 body {
   background-color: var(--main-bg-color);
   color: var(--main-font-color);
